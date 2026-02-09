@@ -1,20 +1,15 @@
-⚡ Sudhanshu Mishra – Developer Portfolio
-
-🌐 Personal Portfolio Website
-
-A modern, responsive developer portfolio built using Simplefolio template, customized to showcase my projects, technical skills, and problem-solving journey.
-
 👨‍💻 About Me
 
 Hi, I'm Sudhanshu Mishra
-🎓 B.Tech Computer Science (AI) Student – KIET Group of Institutions
+
+🎓 B.Tech Computer Science (AI) Student — KIET Group of Institutions
 💻 Backend & Full Stack Development Enthusiast
 📊 Passionate about Data Structures, Algorithms, and System Design
 🚀 Interested in building scalable web applications and visualization tools
 
 🔗 Live Portfolio
 
-👉 (Add your deployed portfolio link here once hosted)
+👉 [(Add your deployed portfolio link here once hosted)](https://portfolio-nine-ruby-45.vercel.app/)
 
 📌 Contact Information
 
@@ -29,14 +24,14 @@ Hi, I'm Sudhanshu Mishra
 
 🔗 LeetCode: https://leetcode.com/u/sudmishra123
 
-✨ Features
+✨ Portfolio Features
 
-✅ Modern UI Design with Smooth Animations
-✅ Fully Responsive Layout
-✅ Interactive Project Showcase
-✅ Scroll Reveal & Tilt Animations
-✅ Optimized Performance using Parcel
-✅ Clean and Modular Code Structure
+✅ Modern UI with smooth animations
+✅ Fully responsive across devices
+✅ Interactive project showcase
+✅ Scroll reveal and tilt effects
+✅ Optimized performance using Parcel
+✅ Clean and modular code structure
 
 🛠️ Tech Stack
 💻 Programming Languages
@@ -73,7 +68,7 @@ SQL Fundamentals
 
 Data Structures & Algorithms
 
-Object Oriented Programming
+Object-Oriented Programming
 
 Operating Systems
 
@@ -101,71 +96,62 @@ Agile Development
 Tech: Node.js, Express.js, MongoDB, HTML, CSS, JavaScript
 
 Developed a full-stack URL shortening service with efficient redirection.
-
-Designed REST APIs and MongoDB schemas for scalability and performance.
-
-Implemented MVC architecture and validation mechanisms.
-
+Designed REST APIs and optimized MongoDB schemas for scalability and performance.
+Implemented MVC architecture with proper validation and error handling.
 Followed production-style Git workflows.
 
 📊 Algorithm Visualizer
 
 Tech: C++, STL, Graph Algorithms, OOP
 
-Built visualization tool for sorting and graph algorithms.
-
-Implemented BFS, DFS, and Dijkstra algorithms.
-
-Designed modular architecture for performance comparison.
-
-Enabled algorithm efficiency experimentation.
+Built a visualization tool for sorting and graph algorithms.
+Implemented BFS, DFS, and Dijkstra’s Algorithm.
+Designed a modular system to compare algorithm performance.
+Enabled experimentation with algorithm efficiency and complexity.
 
 🎵 Desktop Music Player
 
 Tech: C, C++, Multithreading, File Handling
 
-Developed cross-platform music player supporting playback controls.
-
+Developed a cross-platform music player with playback controls.
 Implemented multithreading for smooth audio processing.
-
-Designed modular playback architecture.
-
+Designed a modular playback architecture.
 Tested across Windows and Linux environments.
 
 🏆 Achievements & Certifications
 
-🥇 2nd Position – Coding Contest (CodeHurdle, KIET Koders Korner)
+🥇 2nd Position — Coding Contest (CodeHurdle, KIET Koders Korner)
 
 🧩 Solved 200+ DSA Problems on LeetCode
 🔗 https://leetcode.com/u/sudmishra123
 
 ☁️ Microsoft Learn Student Ambassador Internship
-
-100-hour Full Stack Development training
-
-Contributed to MLSA KIET GitHub repository
+• Completed 100-hour Full Stack Development training
+• Contributed to MLSA KIET GitHub repository
 
 🔐 Microsoft Azure Cloud Security Workshop
-
-Threat Protection & Compliance Training
+• Hands-on training in Threat Protection & Compliance
 
 📚 Education
 
 🎓 KIET Group of Institutions (AKTU), Ghaziabad
-B.Tech – Computer Science (AI)
+B.Tech — Computer Science (AI)
 CGPA: 7.72 / 10
 2023 – 2027
 
 🏫 Anil Saraswati Vidya Mandir, Ayodhya
-Class 12 – 83%
+Class 12 — 83%
 
 🏫 DRM Public School, Ayodhya
-Class 10 – 89.6%
+Class 10 — 89.6%
 
 ⚙️ Getting Started
 Prerequisites
+
 Node.js >= 16
+
 npm >= 7
+
 Git >= 2
 
 Installation
@@ -183,13 +169,15 @@ http://localhost:1234/
 
 You can modify:
 
-/src/index.html  → Content  
-/src/sass        → Styling  
-/src/scripts     → Animations  
+/src/index.html → Content
+
+/src/sass → Styling
+
+/src/scripts → Animations
 
 🚀 Deployment
 
-Recommended Platforms:
+Recommended platforms:
 
 Vercel
 
@@ -199,9 +187,7 @@ GitHub Pages
 
 🤝 Acknowledgements
 
-Template inspired by Simplefolio
-Created by Jacobo Martinez
-https://github.com/cobiwave
+This portfolio is built using the Simplefolio template originally created by Jacobo Martinez. The design and structure have been customized and extended to reflect my personal projects, skills, and development journey.
 
 📜 License
 
@@ -209,14 +195,57 @@ This project is licensed under the MIT License.
 
 ⭐ If you like this project, consider giving it a star!
 
-✅ This version is:
+If you want, next I can help you write a short 2–3 line bio for the top hero section of your actual portfolio site (the line recruiters read first).
 
-ATS & recruiter friendly
+Niceee you’re deploying on Vercel now — love that move 🚀
+The red error is super small, easy fix.
 
-GitHub portfolio standard
+🔴 Problem
 
-Clean professional branding
+Your project name is:
 
-SEO friendly
+my-Portfolio
 
-Placement ready
+
+Vercel only allows lowercase letters.
+
+✅ Fix
+
+Change the project name to something like:
+
+my-portfolio
+
+
+or
+
+sudhanshu-portfolio
+
+
+or
+
+portfolio
+
+
+All lowercase. No spaces. Hyphens are fine.
+
+⚙️ Important Settings for Simplefolio (Parcel)
+
+Before clicking Deploy, expand Build and Output Settings and make sure:
+
+Build Command
+npm run build
+
+Output Directory
+dist
+
+
+Parcel builds the production site into the dist folder — Vercel needs to know that.
+
+📁 Root Directory
+
+Leave it as:
+
+./
+
+
+That’s correct since your package.json is in the root.
